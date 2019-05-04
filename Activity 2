@@ -1,0 +1,82 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int main()
+{
+
+int month,date,year;
+
+cout << "Enter Day: (1-31)\n";
+cin >> month; 
+cout << "Enter the Number of Month: (1-12)\n";
+cin >> date;
+cout << "Enter Year: \n";
+cin >> year;
+
+// MM/DD/YY
+switch (month)
+	{
+		month 1: 
+		cout << "January " << date << ", " << year << endl; 
+		break; 
+		
+		month 2: 
+		 if (month = 2 && date > 28)
+			{
+				cout << "This is an invalid date!"; 
+			}
+			
+		else
+			{
+			cout << "February " << date << ", " << year << endl;
+			}		
+		break; 
+		
+		month 3: 
+		cout << "March " << date << ", " << year << endl; 
+		break;
+		
+		month 4: 
+		cout << "April " << date << ", " << year << endl; 
+		break; 
+		
+		month 5: 
+		cout << "May " << date << ", " << year << endl; 
+		break; 
+		
+		month 6: 
+		cout << "June " << date << ", " << year << endl; 
+		break; 
+		
+		month 7: 
+		cout << "July " << date << ", " << year << endl; 
+		break; 
+	
+		month 8: 
+		cout << "August " << date << ", " << year << endl; 
+		break;
+		
+		month 9: 
+		cout << "September " << date << ", " << year << endl; 
+		break;  	
+		
+    month 10: 
+		cout << "October " << date << ", " << year << endl; 
+		break; 	
+		
+		month 11: 
+		cout << "November " << date << ", " << year << endl; 
+		break; 	
+		
+		month 12: 
+		cout << "December " << date << ", " << year << endl; 
+		break; 	
+		
+			
+	}
+
+
+return 0;
+
+}
